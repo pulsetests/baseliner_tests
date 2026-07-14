@@ -1,0 +1,14 @@
+---
+name: "❓Question"
+description: Ask a question
+title: "short issue description"
+labels: [question, needs-triage]
+assignees: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your question
+      description: Ask your question.
+    validations:
+      required: true
